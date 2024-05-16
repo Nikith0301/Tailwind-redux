@@ -3,7 +3,8 @@ import { useState } from "react";
 import "./App.css";
 import Account from "./components/Account";
 import Form from "./components/Form";
-
+import Account2 from "./components/Account2";
+import Form2 from "./components/Form2";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -36,8 +37,8 @@ function App() {
 
     //     </div>
   <>
-  <Form/>
-  <Account/>
+  <Form2/>
+  <Account2/>
   </>
 
   );
